@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Luxury-hotel-website/static/css/main.54afbb63.css",
+    "main.js": "/Luxury-hotel-website/static/js/main.301a06b8.js",
+    "static/js/453.31db3b71.chunk.js": "/Luxury-hotel-website/static/js/453.31db3b71.chunk.js",
+    "index.html": "/Luxury-hotel-website/index.html",
+    "main.54afbb63.css.map": "/Luxury-hotel-website/static/css/main.54afbb63.css.map",
+    "main.301a06b8.js.map": "/Luxury-hotel-website/static/js/main.301a06b8.js.map",
+    "453.31db3b71.chunk.js.map": "/Luxury-hotel-website/static/js/453.31db3b71.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54afbb63.css",
+    "static/js/main.301a06b8.js"
+  ]
+}
