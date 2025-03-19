@@ -1,0 +1,202 @@
+.roomsSection {
+  padding: 100px 24px;
+  background-color: #fff;
+}
+
+.roomsContainer {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.sectionTitle {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.roomsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.roomCard {
+  background-color: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.roomCard:hover {
+  transform: translateY(-8px);
+}
+
+.roomImageContainer {
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+}
+
+.roomImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.roomCard:hover .roomImage {
+  transform: scale(1.05);
+}
+
+.roomContent {
+  padding: 24px;
+}
+
+.roomName {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.roomDescription {
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.roomPrice {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 16px;
+}
+
+.price {
+  font-size: 28px;
+  font-weight: bold;
+  color: #9c83ff;
+  margin-right: 8px;
+}
+
+.perNight {
+  color: #666;
+  font-size: 14px;
+}
+
+.bookButton {
+  background-color: #9c83ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.bookButton:hover {
+  background-color: #8a6dff;
+}
+
+
+.roomModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 24px;
+}
+
+.modalContent {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 32px;
+  max-width: 600px;
+  width: 100%;
+  position: relative;
+}
+
+.closeButton {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+.modalTitle {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.modalImage {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.modalDescription {
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.modalPrice {
+  font-size: 24px;
+  font-weight: bold;
+  color: #9c83ff;
+  margin-bottom: 24px;
+}
+
+.modalActions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modalBookButton {
+  background-color: #9c83ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 32px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.modalBookButton:hover {
+  background-color: #8a6dff;
+}
+
+@media (max-width: 1024px) {
+  .roomsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sectionTitle {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .roomsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .sectionTitle {
+    font-size: 32px;
+  }
+}

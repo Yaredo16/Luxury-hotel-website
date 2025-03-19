@@ -1,0 +1,335 @@
+
+.font\[inter\]Bg\[\#fff\]Text\[\#333\]MinHScreenWScreenOverflowXHidden {
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+  color: #333;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+.fixedTop0Left0Right0Z50Bg\[rgba\(255\,255\,255\,09\)\]BackdropBlur\[8px\]ShadowSm {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.maxW\[1400px\]MxAutoPx\[24px\]Py\[16px\]FlexItemsCenterJustifyBetween {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text\[24px\]FontBoldText\[\#333\] {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.maxLg\:hiddenFlexItemsCenterGap\[24px\] {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.text\[16px\]Text\[\#333\]Hover\:text\[\#9c83ff\] {
+  font-size: 16px;
+  color: #333;
+}
+
+.text\[16px\]Text\[\#333\]Hover\:text\[\#9c83ff\]:hover {
+  color: #9c83ff;
+}
+
+.lg\:hidden {
+  display: block;
+}
+
+.h6W6 {
+  height: 24px;
+  width: 24px;
+}
+
+
+.fixedInset0Bg\[\#fff\]Z40Lg\:hidden {
+  position: fixed;
+  inset: 0;
+  background-color: #fff;
+  z-index: 40;
+}
+
+.flexFlexColItemsCenterJustifyCenterHFullGap\[32px\] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 32px;
+}
+
+.text\[24px\]Text\[\#333\] {
+  font-size: 24px;
+  color: #333;
+}
+
+
+.relativeHScreen {
+  position: relative;
+  height: 100vh;
+}
+
+.absoluteInset0 {
+  position: absolute;
+  inset: 0;
+}
+
+.absoluteInset0Bg\[rgba\(0\,0\,0\,05\)\] {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.absoluteInset0FlexItemsCenterJustifyCenterTextCenter {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.maxW\[800px\]Px\[24px\] {
+  max-width: 800px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.text\[64px\]MaxSm\:text\[40px\]FontBoldMb\[24px\] {
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.text\[24px\]MaxSm\:text\[18px\]Mb\[32px\] {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.bg\[\#9c83ff\]Text\[\#fff\]Px\[32px\]Py\[16px\]Rounded\[8px\]Text\[18px\]Transform\[translatey\(4px\)\] {
+  background-color: #9c83ff;
+  color: #fff;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 8px;
+  font-size: 18px;
+  transform: translateY(4px);
+}
+
+
+.py\[100px\]Px\[24px\] {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.maxW\[1400px\]MxAuto {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text\[48px\]MaxSm\:text\[32px\]FontBoldTextCenterMb\[64px\] {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.gridGridCols3MaxLg\:gridCols2MaxSm\:gridCols1Gap\[32px\] {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+
+.bg\[\#111\]Py\[100px\]Px\[24px\] {
+  background-color: #111;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.gridGridCols4MaxLg\:gridCols2MaxSm\:gridCols1Gap\[32px\] {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+}
+
+.textCenterP\[32px\]Bg\[\#000\]Rounded\[16px\] {
+  text-align: center;
+  padding: 32px;
+  background-color: #000;
+  border-radius: 16px;
+}
+
+.w\[100px\]H\[100px\]MxAutoMb\[24px\]RoundedFull {
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+  border-radius: 9999px;
+}
+
+.text\[24px\]FontBoldMb\[16px\] {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.text\[\#999\] {
+  color: #999;
+}
+
+
+.gridGridCols2MaxSm\:gridCols1Gap\[32px\] {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+.bg\[\#111\]Rounded\[16px\]P\[32px\] {
+  background-color: #111;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.text\[32px\]FontBoldMb\[16px\] {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.text\[\#999\]Mb\[24px\] {
+  color: #999;
+  margin-bottom: 24px;
+}
+
+.bg\[\#9c83ff\]Text\[\#fff\]Px\[24px\]Py\[12px\]Rounded\[8px\] {
+  background-color: #9c83ff;
+  color: #fff;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 8px;
+}
+
+
+.bg\[\#000\]P\[32px\]Rounded\[16px\] {
+  background-color: #000;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.flexItemsCenterMb\[16px\] {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.w\[50px\]H\[50px\]RoundedFullMr\[16px\] {
+  width: 50px;
+  height: 50px;
+  border-radius: 9999px;
+  margin-right: 16px;
+}
+
+.fontBold {
+  font-weight: bold;
+}
+
+
+.bg\[\#000\]Py\[64px\]Px\[24px\] {
+  background-color: #000;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.spaceY\[8px\]Text\[\#999\] {
+  color: #999;
+}
+
+.spaceY\[8px\]Text\[\#999\] > * + * {
+  margin-top: 8px;
+}
+
+.flexGap\[16px\] {
+  display: flex;
+  gap: 16px;
+}
+
+.textCenterText\[\#999\]Pt\[32px\]BorderT\[1px\]Border\[\#333\] {
+  text-align: center;
+  color: #999;
+  padding-top: 32px;
+  border-top: 1px solid #333;
+}
+
+
+@media (max-width: 1024px) {
+  .maxLg\:hiddenFlexItemsCenterGap\[24px\] {
+    display: none;
+  }
+
+  .lg\:hidden {
+    display: block;
+  }
+
+  .gridGridCols3MaxLg\:gridCols2MaxSm\:gridCols1Gap\[32px\] {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gridGridCols4MaxLg\:gridCols2MaxSm\:gridCols1Gap\[32px\] {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .text\[64px\]MaxSm\:text\[40px\]FontBoldMb\[24px\] {
+    font-size: 40px;
+  }
+
+  .text\[24px\]MaxSm\:text\[18px\]Mb\[32px\] {
+    font-size: 18px;
+  }
+
+  .text\[48px\]MaxSm\:text\[32px\]FontBoldTextCenterMb\[64px\] {
+    font-size: 32px;
+  }
+
+  .gridGridCols3MaxLg\:gridCols2MaxSm\:gridCols1Gap\[32px\],
+  .gridGridCols4MaxLg\:gridCols2MaxSm\:gridCols1Gap\[32px\],
+  .gridGridCols2MaxSm\:gridCols1Gap\[32px\] {
+    grid-template-columns: 1fr;
+  }
+}
