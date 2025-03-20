@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Luxury Hotel Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, fully responsive Luxury Hotel Website built with React, CSS Modules, and JavaScript. This project showcases a high-end hotel landing page with interactive components, elegant design, and smooth user experience.
 
-## Available Scripts
+Table of Contents
+ • Features
+ • Live Demo
+ • Screenshots
+ • Tech Stack
+ • Getting Started
+ • Project Structure
+ • Usage
+ • Contributing
+ • License
+ • Contact
 
-In the project directory, you can run:
+#  Features
+ • Responsive Design: Optimized for mobile, tablet, and desktop views.
+ • Modern UI/UX: Clean layout with emphasis on luxury branding and aesthetics.
+ • Interactive Components: Image sliders and animated transitions.
+ • CSS Modules: Encapsulated styling, preventing class name conflicts.
+ • Reusable Components: Modular React components for maintainability.
+ • Room Listings & Booking Info: Showcase of room categories with potential booking details (Only front-end).
+ • Smooth Scrolling & Animations: Improved user experience via smooth page transitions.
+ • SEO-Friendly Structure: Proper headings and metadata for better discoverability.
 
-### `npm start`
+# Live Demo
+ • Netlify: Luxury Hotel Website Demo https://gleeful-kelpie-224e4f.netlify.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ 
+# Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To get a local copy up and running, follow these simple steps:
 
-### `npm test`
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Yaredo16/Luxury-hotel-website.git
+2. Navigate to the project directory:
+cd Luxury-hotel-website
+#  Usage
+Open the index.html file in your preferred web browser to view the website locally. You can also deploy the website to a web server to make it accessible online.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Contributing
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-### `npm run build`
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
+3. Commit your Changes (git commit -m 'Add some AmazingFeature')
+4. Push to the Branch (git push origin feature/AmazingFeature)
+5. Open a Pull Request
+# Contact
+Yared Birhanu Tolosa - yaredbirhanu20@gmail.com
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Project Link: https://github.com/Yaredo16/Luxury-hotel-website
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Feel free to customize this template further as per your requirements. Let me know if you need any more information or modifications!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
