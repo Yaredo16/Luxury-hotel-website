@@ -53,7 +53,7 @@ Yared Birhanu Tolosa - yaredbirhanu20@gmail.com
 
 Project Link: https://github.com/Yaredo16/Luxury-hotel-website
 
-Feel free to customize this template further as per your requirements. Let me know if you need any more information or modifications!
+
 
 
 
